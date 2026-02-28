@@ -71,3 +71,50 @@ export default defineConfig([
   },
 ])
 ```
+# Dynamic Search Bar with Suggestions
+
+A dynamic search bar built using **React + TypeScript (Vite)** that displays suggestions as the user types.
+
+## 🚀 Features
+
+- Debounced input (500ms delay)
+- Suggestions appear after typing 2+ characters
+- Click suggestion to autofill input
+- Clean and responsive UI
+- Built using React Hooks (`useState`, `useEffect`, `useMemo`)
+
+## 🛠 Tech Stack
+
+- React
+- TypeScript
+- Vite
+- CSS
+
+## 📂 Project Structure
+
+
+src/
+App.tsx
+App.css
+main.tsx
+index.html
+package.json
+
+
+## 📌 Concepts Used
+
+- State management with `useState`
+- Side effects with `useEffect`
+- Performance optimization with `useMemo`
+- Debouncing logic
+- Conditional rendering
+
+## ▶️ How to Run Locally
+
+```bash
+npm install
+npm run dev
+<img width="1920" height="1080" alt="Screenshot (359)" src="https://github.com/user-attachments/assets/42b1f635-2f56-4fa6-983e-448f737f490c" />
+
+
+Built as part of frontend practice and internship tasks
